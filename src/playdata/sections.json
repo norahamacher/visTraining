@@ -1,0 +1,420 @@
+
+{
+    "sections": [
+        {
+           
+            "section": "Why the web?",
+            "year":2005,
+            "typeContent": 2,
+            "paragraphs": [
+                {
+                    "title": "Layout Possibilities",
+                    "text": "The layout of the website is completely up to the developer. Menus, scrolling parts of the site, animations, natural support for user interaction are all great benefits of web development."
+                },
+                {
+                    
+                    "text": "There is a lot of freedom and it gives possibilities for unusual approaches as well. Regarding storytelling, websites naturally offer very easy and efficient ways to weave a story with imagery.",
+                    "features": [
+                        {
+                            "type": "boldfont",
+                            "text": "storytelling"
+                            
+                        }
+                    ]
+                },
+                {
+                    "title": "Accessibility"
+                },
+                {
+                    "title": "Libraries",
+                    "text": "There are a lot of javascript libraries to do on-runtime visualisations, and most visualisations created with other means can be displayed on a website as well."
+                }
+            ]
+        },
+        {
+           
+            "section": "Beginner",
+            "year":2005,
+            "typeContent": 3,
+            "paragraphs": [
+                {
+                    "title": "Beginner CSS/HTML5",
+                    "text": "Create a basic one-page website including previously created images of vis, animations, and text to present visualisations along with a narrative."
+                    
+                }, 
+                {
+                  
+                    "text": "This is a static website with no interactivity other than scrolling and basic things like clicking links to redirect the user. But it can be a good fast way to present data findings to a broad audience. "
+                    
+                }
+            ]
+        },
+        {
+           
+            "section": "Intermediate",
+            "year":2005,
+            "typeContent": 2,
+            "paragraphs": [
+                {
+                    "title": "Javascript, Javascript libraries, DOM Manipulation, Anchors, onclick event, onscroll event",
+                    "text": "Create a scrolling page where predefined static events happen as the user reaches points on the website. In the context of storytelling, this means that specific visualisations or other imagery can be displayed as the user reads the relevant point in the story."
+                    
+                }, 
+                {
+                  
+                    "text": "This can be extremely powerful, especially when the help of Javascript libraries are used. However, if it is a very complex site the code can get cluttered quickly and it might become a high maintenance project. "
+                    
+                },
+                {
+                    "title": "JSON",
+
+                    "text": "JSON is the preferred data format for JS applications. It is easy to convert other data types such as tabular data (csv) to it. A lot of JS libraries expect JSON input so it is very useful to be familiar with it. ",
+                    "features": [
+                        {
+                            "type": "link",
+                            "url": "https://www.w3schools.com/whatis/whatis_json.asp",
+                            "text": "JSON is the preferred data format"
+                        }
+                    ]
+                    
+                }
+            ]
+        },
+        {
+           
+            "section": "Advanced",
+            "year":2005,
+            "typeContent": 2,
+            "paragraphs": [
+                {
+                    "title": "Package Manger NPM",
+                    "text": "Simplifies and streamlines installing libraries to your project, add dependencies, define automatic workflows, and much more."
+                    
+                    
+                }, 
+                {
+                  
+                    "text": "This can be extremely powerful, especially when the help of Javascript libraries are used. However, if it is a very complex site the code can get cluttered quickly and it might become a high maintenance project. "
+                    
+                },
+                {
+                    "title": "MVC: Model view controller",
+
+                    "text": "Separate what the user sees, the view, from the data, which is the model. This enables dynamic websites with easier code maintenance and changes to the displayed information on runtime.",
+                    "features": [
+                        {
+                            "type": "italicfont",
+                            "text": "the view"
+                            
+                        }, 
+                        {
+                            "type": "italicfont",
+                            "text": "the model"
+                            
+                        }
+                    ]                   
+                     
+                },
+                {  
+                    "text": "Some popular MVC frameworks are ReactJS, KnockoutJS or Angular."                    
+                },
+                {
+                    "title": "ES6 - EcmaScript 6"
+                     
+                },
+                {
+                    "title": "TypeScript"
+                     
+                }
+            ]
+        },
+        {
+           
+            "section": "New Data",
+            "year":2005,
+            "typeContent": 0,
+            "imageId":0, 
+            "paragraphs": [
+                {
+                    "title": "Extended previous data",
+                    "text": "Each power plant also has location data. Rather than having one table for each year, the data have been merged into one table, with two columns yearStart and yearEnd.",
+                    "features": [
+                        {
+                            "type": "italicfont",
+                            "text": "yearStart"
+                            
+                        }, 
+                        {
+                            "type": "italicfont",
+                            "text": "yearEnd"
+                            
+                        }
+                    ]            
+                    
+                    
+                }, 
+                {
+                  
+                    "text": " The alternative to this way would be to have one line for each year a plant was active. For the power plant Drax, this would mean 9 lines in the table, which would be identical except for the year column. It depends a bit on what is the goal which way is better. In this case, when reading the data each plant is processed in one line.",
+                    "features": [
+                        {
+                            "type": "italicfont",
+                            "text": "Drax"
+                            
+                        }
+                    ]            
+                    
+                },
+                {
+                    "imageId": 1,
+                    "text": "JSON representation of the data (with a few extra information). The blue boxes correspond to the columns in the tabular data."
+                }
+            ]
+        },
+        {
+           
+            "section": "Understanding Data",
+            "year":2005,
+            "typeContent": 2,
+          
+            "paragraphs": [
+                {
+                   
+                    "text": "It is important the person visualising the data understands it. Else, crucial information could be missed or displayed wrong.",
+                    "features": [
+                        {
+                            "type": "boldfont",
+                            "text": "understands"
+                            
+                        }
+                    ]            
+                    
+                    
+                }, 
+                {
+                  
+                    "text": " This dataset shows the name and location of power plants in the UK, which type of power generation they are, along with the capacity and the start and end year of relevance for this visualisation. ",
+                    "features": [
+                        {
+                            "type": "italicfont",
+                            "text": "location"
+                            
+                        },
+                        {
+                            "type": "italicfont",
+                            "text": "type"
+                            
+                        },
+                        {
+                            "type": "italicfont",
+                            "text": "capacity"
+                            
+                        },
+                        {
+                            "type": "italicfont",
+                            "text": "start"
+                            
+                        },
+                        {
+                            "type": "italicfont",
+                            "text": "end year of relevance"
+                            
+                        }
+                    ]            
+                    
+                },
+                {
+                   
+                    "text": "Note that some of these plants were opened a lot earlier than the yearStart. However the narrative of the story of this visualisation focuses on how and why the power generation in the UK transformed in the last 15 years, starting from 2004. So for this vis, data from before 2004 can be discarded. ",
+                    "features": [
+                        {
+                            "type": "boldfont",
+                            "text": "narrative"
+                            
+                        }
+                    ]            
+                    
+                    
+                }, 
+                {
+                   
+                    "text": "If a different narrative is chosen it is absolutely valid to go back further in time, and it is up to the narrator to choose which information should be used. ",
+                    "features": [
+                        {
+                            "type": "boldfont",
+                            "text": "up to the narrator"
+                            
+                        },
+                        {
+                            "type": "italicfont",
+                            "text": "different"
+                            
+                        }
+                    ]            
+                    
+                    
+                },
+                {
+                   
+                    "text": "It is also crucial to pinpoint the events in the story that need to be enhanced by visualisation or other imagery  - and how.",
+                    "features": [
+                        {
+                            "type": "boldfont",
+                            "text": "events in the story"
+                            
+                        }
+                    ]            
+                    
+                    
+                }
+            ]
+        },
+        {
+           
+            "section": "Map Vis",
+            "year":2019,
+            "typeContent": 1,
+          
+            "paragraphs": [
+                {
+                    "title": "Drawing on a map",
+                    "text": "To draw something on a map, the latitude/longitude coordinate is used. This is essentially no different to a x/y coordinate in a 2D system and therefore this is useful for many applications, not just map. For this application the library mapboxGL is used, which takes geolocation data and lets the user define filters and actions to control what is drawn on the map. The following examples are for the year 2019.",
+                
+                    "features": [
+                        {
+                            "type": "italicfont",
+                            "text": "mapboxGL"
+                            
+                        }
+                    ]     
+                    
+                },
+                {
+                    "title": "What happens when we draw all the power plants on the map?",
+                    "code": "code coming soon;",
+                    "actions": [
+                        {
+                            "mapdemo": {
+                                "colored" : false,
+                                "differentSizes" : false,
+                                "opacity" : false,
+                                "tooltip":false
+                            }
+                        }
+                    ],
+                    "text": "This shows the location, but it is quite useless. It also does not look very nice either. You can pan and zoom the map freely. "
+                },
+                {
+                    "title": "Adding colour",
+                    "code": "code coming soon;",
+                    "actions": [
+                        {
+                            "mapdemo": {
+                                "colored" : true,
+                                "differentSizes" : false,
+                                "opacity" : false,
+                                "tooltip":false
+                            }
+                        }
+                    ],
+                    "text": "Each type of plant has a different colour now. Todo: Add legend. There is a lot of solar power generation in the South, but not much in the North. You can see that wind farms exist in the North and offshore. How can this be improved?"
+                },
+                {
+                    "title": "Taking capacity into account",
+                    "code": "code coming soon;",
+                    "actions": [
+                        {
+                            "mapdemo": {
+                                "colored" : true,
+                                "differentSizes" : true,
+                                "opacity" : true,
+                                "tooltip":false
+                            }
+                        }
+                    ],
+                    "text": "The size of the dots is now scaled with the capacity in the data. The dots are also made transparent, so there aren't any dots hidden behind others. It is now clearly visible that there are some large gas plants and the solar cells are tiny but numerous."
+                }
+
+
+                   
+            ]
+        },
+        {
+            "section":"Map Highlights",
+            "year": 2008,
+            "typeContent": 1,
+            "paragraphs": [
+                {
+                    "text": "In 2008, each kilowatt hour of electricity generated in the UK adds 495 grammes of CO2 to the atmosphere (gCO2/kWh). This important metric – the “carbon intensity” of the electricity system – is to fall by nearly 60% by 2018. For now, electricity demand has been rising for decades and is close to record highs.",
+                    "features": [
+                        {
+                            "type": "link",
+                            "url": "https://www.carbonbrief.org/analysis-uk-electricity-generation-2018-falls-to-lowest-since-1994",
+                            "text": "record highs."
+                        }
+                    ]
+                },
+                {
+                    "text": "Although the face of the UK’s electricity system is starting to change, it is still dominated by large, centralised power plants – many of which were built decades earlier. Just 56 power stations burning coal, gas, oil or nuclear fuel account for the lion’s share of power capacity  and generate the vast majority of UK electricity. Coal’s share of generation has halved since the dash for gas in the 1990s, but some four-fifths of UK electricity still comes from fossil fuels – with another 13% from nuclear.",
+                    "actions": [
+                        {
+                            "highlight": {
+                                "type": "type",
+                                "keywords": [
+                                    "coal",
+                                    "gas",
+                                    "oil",
+                                    "nuclear"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "text": "Encouraged by the Non Fossil Fuel Obligation and then the Renewables Obligation, a sprinkling of renewable plants have begun to appear. There are now 552 larger renewable sites – mostly fuelled by hydro, wind and wastes such as landfill gas – and another 3,150 small installations, including 2,400 solar rooftops. [These small sites are aggregated to local authority level and are only shown on the map when they total at least 1 megawatt (MW).] Despite their numbers, renewables supply just 6% of the UK’s electricity.",
+                    "actions": [
+                        {
+                            "highlight": {
+                                "type": "type",
+                                "keywords": [
+                                    "hydro",
+                                    "wind",
+                                    "waste",
+                                    "solar"
+                                ]
+                            }
+                        }
+                    ],
+                    "features": [
+                        {
+                            "type": "link",
+                            "url": "https://www.annualreviews.org/doi/abs/10.1146/annurev.energy.25.1.285",
+                            "text": "Non Fossil Fuel Obligation"
+                        },
+                        {
+                            "type": "link",
+                            "url": "https://www.ofgem.gov.uk/environmental-programmes/ro/about-ro",
+                            "text": "Renewables Obligation"
+                        }
+                    ]
+                },
+                {
+                    "text": "In January, Medway Council approves a new coal-fired power station at Kingsnorth in Kent. If built, it would be the country’s first for 24 years. The “Kingsnorth six”, who scaled the chimney of the existing Kingsnorth plant to protest against the plans, are acquitted in September. A new Kingsnorth plant is needed, according to owners E.ON, to meet rising electricity demand and to replace old capacity as it retires. However, demand actually falls for the next decade.",
+                    "actions": [
+                        {
+                            "highlight": {
+                                "type": "plant",
+                                "keywords": [
+                                   "Kingsnorth"
+                                ]
+                            }
+                        }
+                    ]
+                    
+                }
+
+            ]
+        }
+        
+    ]
+}
