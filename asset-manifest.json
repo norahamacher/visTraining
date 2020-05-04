@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/visTraining/static/css/main.c2f0807d.chunk.css",
-    "main.js": "/visTraining/static/js/main.2830f2b2.chunk.js",
-    "main.js.map": "/visTraining/static/js/main.2830f2b2.chunk.js.map",
+    "main.css": "/visTraining/static/css/main.51e5a3e2.chunk.css",
+    "main.js": "/visTraining/static/js/main.cf2ecc8d.chunk.js",
+    "main.js.map": "/visTraining/static/js/main.cf2ecc8d.chunk.js.map",
     "runtime-main.js": "/visTraining/static/js/runtime-main.92b61a30.js",
     "runtime-main.js.map": "/visTraining/static/js/runtime-main.92b61a30.js.map",
-    "static/js/2.50280d86.chunk.js": "/visTraining/static/js/2.50280d86.chunk.js",
-    "static/js/2.50280d86.chunk.js.map": "/visTraining/static/js/2.50280d86.chunk.js.map",
+    "static/js/2.20869ddc.chunk.js": "/visTraining/static/js/2.20869ddc.chunk.js",
+    "static/js/2.20869ddc.chunk.js.map": "/visTraining/static/js/2.20869ddc.chunk.js.map",
     "index.html": "/visTraining/index.html",
-    "precache-manifest.6a2c219942ea345802395e76a0a2f50f.js": "/visTraining/precache-manifest.6a2c219942ea345802395e76a0a2f50f.js",
+    "precache-manifest.1cde1144e40904fd16dacc1a51c578df.js": "/visTraining/precache-manifest.1cde1144e40904fd16dacc1a51c578df.js",
     "service-worker.js": "/visTraining/service-worker.js",
-    "static/css/main.c2f0807d.chunk.css.map": "/visTraining/static/css/main.c2f0807d.chunk.css.map",
-    "static/js/2.50280d86.chunk.js.LICENSE.txt": "/visTraining/static/js/2.50280d86.chunk.js.LICENSE.txt",
-    "static/media/JSONdata.png": "/visTraining/static/media/JSONdata.a1db074b.png",
+    "static/css/main.51e5a3e2.chunk.css.map": "/visTraining/static/css/main.51e5a3e2.chunk.css.map",
+    "static/js/2.20869ddc.chunk.js.LICENSE.txt": "/visTraining/static/js/2.20869ddc.chunk.js.LICENSE.txt",
+    "static/media/JSONdata.png": "/visTraining/static/media/JSONdata.1e920299.png",
     "static/media/image-ANIMATION.gif": "/visTraining/static/media/image-ANIMATION.97aed607.gif",
     "static/media/piechart1.png": "/visTraining/static/media/piechart1.f650fda7.png",
-    "static/media/tableData.png": "/visTraining/static/media/tableData.bce7c74a.png"
+    "static/media/tableData.png": "/visTraining/static/media/tableData.954ebf8c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.92b61a30.js",
-    "static/js/2.50280d86.chunk.js",
-    "static/css/main.c2f0807d.chunk.css",
-    "static/js/main.2830f2b2.chunk.js"
+    "static/js/2.20869ddc.chunk.js",
+    "static/css/main.51e5a3e2.chunk.css",
+    "static/js/main.cf2ecc8d.chunk.js"
   ]
 }
